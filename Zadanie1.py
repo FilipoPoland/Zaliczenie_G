@@ -3,8 +3,8 @@
 # wyswietl wyniki do dwoch miejsc po przecinku
 # podaj ile jest miejsc zerowych w komunikacie
 
-from math import sqrt
 c = True
+
 while c:
     u_input = input('Podaj współczynniki funkcji kwadratowej odzielone przecinkami w klejności a, b, c (separator '
                     'dziesiętny to kropka): ')
@@ -20,8 +20,8 @@ while c:
         elif delta == 0:
             print('Jedno miejsce zerowe')
         elif delta > 0:
-            x1 = (-(float(u_list[1])) + sqrt(delta)) / (2 * float(u_list[0]))
-            x2 = (-(float(u_list[1])) - sqrt(delta)) / (2 * float(u_list[0]))
+            x1 = (-(float(u_list[1])) + (delta ** 0.5)) / (2 * float(u_list[0]))
+            x2 = (-(float(u_list[1])) - (delta ** 0.5)) / (2 * float(u_list[0]))
             # zaokraglenie
             x1 = round(x1, 2)
             x2 = round(x2, 2)

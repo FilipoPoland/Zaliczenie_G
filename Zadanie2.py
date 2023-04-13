@@ -11,6 +11,7 @@ while con1:
         con1 = False
     except:
         print('Proszę podać liczbę, w której separatorem dzisiętnym jest kropka.')
+
 con2 = True
 while con2:
     try:
