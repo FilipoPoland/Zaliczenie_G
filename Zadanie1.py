@@ -28,7 +28,7 @@ while c:
             x1 = round(x1, 2)
             x2 = round(x2, 2)
             print(f'Dwa miejscza zerowe: {x1} oraz {x2}')
-            c = False
+        c = False
     except:
         print('Zostały podane błędne wartości.')
 
