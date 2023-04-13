@@ -17,9 +17,7 @@ while c:
         delta = (float(u_list[1]) ** 2) - (4 * float(u_list[0]) * float(u_list[2]))
         if delta < 0:
             print('Brak miejsc zerowych.')
-
         elif delta == 0:
-
             print('Jedno miejsce zerowe')
         elif delta > 0:
             x1 = (-(float(u_list[1])) + sqrt(delta)) / (2 * float(u_list[0]))
