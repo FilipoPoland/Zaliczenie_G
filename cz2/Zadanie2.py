@@ -1,6 +1,6 @@
 u_input = input('Podaj jedną literę: ')
 list_name = ['Ala', 'Marek', 'Ola', 'Mariusz', 'Paweł', 'Anna', 'Iwo']
-list_name1 =[]
+list_name1 = []
 
 for i in list_name:
     if len(i) < 5:

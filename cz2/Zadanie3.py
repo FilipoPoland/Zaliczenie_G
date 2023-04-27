@@ -1,8 +1,8 @@
 from random import randint
 
 list_Ran = []
-
 y = 9
+
 # losowanie z wykluczeniem powtorzen
 while y > 0:
     x = randint(-20, 20)
